@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import reactDom from "react-dom";
 import AddItem from "../AddItem/AddItem";
-import ComponentIngredient from "../ComponentIngredient/ComponentIngredient";
+
 import DisplayMeal from "../DisplayMeal/DisplayMeal";
 import "../FoodSearch/FoodSearch.css";
 const FoodSearch = () => {

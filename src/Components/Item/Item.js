@@ -4,7 +4,7 @@ import { useHistory, useParams } from "react-router";
 const Item = () => {
   const history = useHistory();
   const handle = () => {
-    history.push("/");
+    history.push("/recipe");
   };
   const { idMeal } = useParams();
   console.log(idMeal);
